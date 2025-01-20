@@ -144,6 +144,79 @@ ul li{
 
 
 
+/* main section style start here */
+.main{
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+}
+
+
+/* standard curriculum section style start here */
+
+.standard-curriculum{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px ;
+   
+}
+.section-title{
+    font-size: 2.9rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.884);
+    margin-bottom: 80px;
+}
+.card-container{
+    justify-content: space-around;
+}
+.card{
+    /* max-width: 367px; */
+    width: 30%;
+    text-align: center;
+    border-radius: 18px;
+    padding: 30px;
+    
+}
+.card-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 30px 0;
+
+}
+.card-description{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28px;
+    color: #808080;
+}
+.btn{
+    
+    display: block;
+    color: #64C8FF;
+    margin: 30px 0 50px 0;
+   
+    
+    
+}
+#card1{
+    background-image: linear-gradient(#def5ff, #f1eded71);
+}
+
+#card2{
+    background-image: linear-gradient(#fff4dcdc,#f1eded71);
+}
+#card3{
+    background-image: linear-gradient(#f2e8ffcb,#f1eded71);
+}
+
+/* standard curriculum section style end here */
+
+
+
+/* main section style end here */
+
+
+
 /* small device responsive start here */
 
 
@@ -201,13 +274,52 @@ ul li{
 br{
     display: none;
 }
-
-
-}
-
 /* header section responsive end here */
 
 
+/* main section responsive  start here */
+
+/* standard curriculum section responsive start here */
+
+.section-title{
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.884);
+    margin-bottom: 20px;
+}
+.card-container{
+    flex-direction: column;
+    gap: 12px;
+}
+.card{
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.card img{
+    width: 88px;
+}
+/* standrad curriculum section responsive end here */
+
+/* main section responsive end here */
 
 
+}
 /* small device responsive end here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
