@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
+body {
     font-family: "Quicksand", serif;
     /* font-family: "Raleway", serif; */
 
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,17 +14,17 @@ body{
 
 /* shared style section start here */
 
-.header{
+.header {
     max-width: 1158px;
     margin: 0 auto;
 }
 
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
-.primary-btn{
+.primary-btn {
     border: none;
     background-color: black;
     border-radius: 12px;
@@ -43,101 +44,119 @@ body{
 
 
 /* nav bar style start here */
-.nav-container{
+.nav-container {
     justify-content: space-between;
     padding: 30px;
 }
-.logo{
+
+.logo {
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
- ul li, a{
+
+ul li,
+a {
     text-decoration: none;
     margin: 17px;
-    /* margin-top: 10px; */   
+    /* margin-top: 10px; */
 }
 
-ul li{
+ul li {
     list-style: none;
 }
 
-#first-menu{
+#first-menu {
     color: orange;
     font-size: 1.2rem;
     font-weight: bold;
 
 }
-#second-menu{
+
+#second-menu {
     color: skyblue;
     font-size: 1.2rem;
     font-weight: 600;
 }
-#third-menu{
+
+#third-menu {
     color: #05D4DF;
     font-size: 1.2rem;
     font-weight: 600;
 
 }
-#fourth-menu{
-     color: #5D58EF;
-     font-size: 1.2rem;
-     font-weight: 600;
+
+#fourth-menu {
+    color: #5D58EF;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
-.contact{
+
+.contact {
     background-color: orange;
     border-radius: 12px;
     padding: 0 20px;
-  
+
 }
-.contact ,a{
+
+.contact,
+a {
     color: white;
     font-size: 1.2rem;
     font-size: 600;
-   
+
 }
-.icon{
+
+.icon {
     display: none;
 }
-#hz-row{
+
+#hz-row {
     display: none;
 }
+
 /* nav bar style end here */
 
 
 
 /* banner section style start here */
 
-.banner-container{
+.banner-container {
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 24px;
 
 }
-.banner-description{
+
+.banner-description {
     font-size: 1.2rem;
     color: rgba(0, 0, 0, 0.76);
     margin-bottom: 24px;
-    
+
 }
-.banner-img{
+
+.banner-img {
     max-width: 468px;
 }
-.banner-content{
-    max-width: 640px ;
+
+.banner-content {
+    max-width: 640px;
 }
-#word-color{
+
+#word-color {
     color: orange;
 }
-#word-color2{
-   color: skyblue;
+
+#word-color2 {
+    color: skyblue;
 }
+
 /* banner section style end here */
 
 /* header section style end here  */
@@ -145,7 +164,7 @@ ul li{
 
 
 /* main section style start here */
-.main{
+.main {
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
 }
@@ -153,63 +172,168 @@ ul li{
 
 /* standard curriculum section style start here */
 
-.standard-curriculum{
+.standard-curriculum {
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 60px ;
-   
+    margin-top: 60px;
+
 }
-.section-title{
+
+.section-title {
     font-size: 2.9rem;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.884);
     margin-bottom: 80px;
 }
-.card-container{
+
+.card-container {
     justify-content: space-around;
 }
-.card{
+
+.card {
     /* max-width: 367px; */
     width: 30%;
     text-align: center;
     border-radius: 18px;
     padding: 30px;
-    
+
 }
-.card-title{
+
+.card-title {
     font-size: 1.3rem;
     font-weight: bold;
     margin: 30px 0;
 
 }
-.card-description{
+
+.card-description {
     font-size: 1rem;
     font-weight: 500;
     line-height: 28px;
     color: #808080;
 }
-.btn{
-    
+
+.btn {
+
     display: block;
     color: #64C8FF;
     margin: 30px 0 50px 0;
-   
-    
-    
+
+
+
 }
-#card1{
+
+#card1 {
     background-image: linear-gradient(#def5ff, #f1eded71);
 }
 
-#card2{
-    background-image: linear-gradient(#fff4dcdc,#f1eded71);
+#card2 {
+    background-image: linear-gradient(#fff4dcdc, #f1eded71);
 }
-#card3{
-    background-image: linear-gradient(#f2e8ffcb,#f1eded71);
+
+#card3 {
+    background-image: linear-gradient(#f2e8ffcb, #f1eded71);
+}
+
+.breackt-container {
+    margin-top: 80px;
+
+}
+
+.breackt {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+
 }
 
 /* standard curriculum section style end here */
+
+
+/* our stories section start here */
+
+.our-stories {
+
+    /* max-width: 1440px;
+    margin: 0 auto; */
+    text-align: center;
+    margin-top: 80px;
+    background-image: linear-gradient(to top, #fea10157, #FFFFFF);
+
+}
+
+.stories-img-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap: 20px;
+}
+
+.stories-img-container img {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+}
+
+.stories-card {
+    max-width: 570px;
+    background-color: white;
+    text-align: left;
+    grid-row: span 2;
+    border-radius: 12px;
+
+}
+
+.sub-div {
+    margin-left: 30px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 38px;
+    margin-top: 36px;
+    margin-bottom: 51px;
+}
+
+.Years {
+    display: block;
+    background-color: #3CD8E8;
+    width: max-content;
+    border-radius: 47px;
+    padding: 12px;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    top: -25px;
+    left: 30px;
+}
+
+.story-card {
+    max-width: 290px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.years2 {
+    position: relative;
+    padding: 10px;
+    left: 20px;
+    background-color: #95B226;
+}
+
+.card-title2 {
+    text-align: left;
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+/* our stories section end here */
 
 
 
@@ -227,99 +351,129 @@ ul li{
 
 @media screen and (max-width:576px) {
 
-.banner-container{
+    .banner-container {
         flex-direction: column-reverse;
     }
-.nav-container{
-    align-items: center;
-}
-.menu-bar, .contact, .header-title{
-    display: none;
-}
-.icon, #hz-row{
-    display: block;
-}
-#hz-row{
-    border: 1px solid rgba(255, 0, 0, 0.295);
-}
 
-.banner-img{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
- 
+    .nav-container {
+        align-items: center;
+    }
 
+    .menu-bar,
+    .contact,
+    .header-title {
+        display: none;
+    }
 
-}
-.banner-img ,img{
-    width: 90%;
-}
+    .icon,
+    #hz-row {
+        display: block;
+    }
 
-.banner-content{
-    text-align: center;
-    padding: 10px;
-}
+    #hz-row {
+        border: 1px solid rgba(255, 0, 0, 0.295);
+    }
 
-.banner-title{
-    font-size: 2.5rem;
-   
-}
-.banner-description{
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.76);
-    margin-bottom: 24px;
-    
-}
-br{
-    display: none;
-}
-/* header section responsive end here */
+    .banner-img {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
 
 
-/* main section responsive  start here */
 
-/* standard curriculum section responsive start here */
+    }
 
-.section-title{
-    font-size: 1.9rem;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.884);
-    margin-bottom: 20px;
-}
-.card-container{
-    flex-direction: column;
-    gap: 12px;
-}
-.card{
-    width: 90%;
-    margin: 0 auto;
-   
-}
-.card img{
-    width: 88px;
-}
-/* standrad curriculum section responsive end here */
+    .banner-img,
+    img {
+        width: 90%;
+    }
 
-/* main section responsive end here */
+    .banner-content {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+
+    }
+
+    .banner-description {
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.76);
+        margin-bottom: 24px;
+
+    }
+
+    br {
+        display: none;
+    }
+
+    /* header section responsive end here */
+
+
+    /* main section responsive  start here */
+
+    /* standard curriculum section responsive start here */
+
+    .section-title {
+        font-size: 1.9rem;
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.884);
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .card img {
+        width: 88px;
+    }
+
+    .breackt-container {
+        display: none;
+    }
+
+    /* standrad curriculum section responsive end here */
+
+
+    /* our stories section responsive start here */
+
+    .stories-img-container {
+        grid-template-columns: 45% 45%;
+        justify-content: center;
+
+    }
+
+    .stories-card {
+        display: none;
+    }
+
+    .story-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background-color: white;
+        border-radius: 12px;
+
+    }
+
+    /* our stories section responsive end here */
+
+
+    /* main section responsive end here */
 
 
 }
+
 /* small device responsive end here */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
