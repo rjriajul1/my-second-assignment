@@ -324,6 +324,9 @@ a {
     left: 20px;
     background-color: #95B226;
 }
+.years3{
+    background-color: #5D58EF;
+}
 
 .card-title2 {
     text-align: left;
@@ -332,12 +335,65 @@ a {
     font-weight: bold;
     line-height: 28px;
 }
-
+.story-btn{
+    margin: 60px;
+}
 /* our stories section end here */
 
 
 
 /* main section style end here */
+
+
+
+/* footer section style start here */
+
+.footer-container{
+    background-color: #01ACFD;
+    color: white;
+    max-width: 519px;
+    max-width: 100%;
+   
+    
+}
+.footer-content-container{
+    max-width: 1070px ;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    padding: 100px 0;
+   
+}
+.footer-title{
+     font-size: 1.5rem;
+     font-weight: bold;
+     position: relative;
+     top: -30px;
+}
+.footer-description{
+    font-size: 1.2rem;
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.footer-menu ul{
+    margin-top: 30px;
+   
+}
+.footer-menu ul li a{
+  color: rgba(255, 255, 255, 0.753);
+}
+.footer-icon{
+    margin-top: 30px;
+}
+#deucation{
+    margin-left: 65px;
+}
+.footer-icon img{
+    padding: 5px;
+}
+
+/* footer section style end here */
 
 
 
@@ -467,11 +523,78 @@ a {
         border-radius: 12px;
 
     }
-
+    .Years {
+        padding: 5px;
+        font-size: .7rem;
+        top: -15px;
+        left: 10px;
+    }
+     
+    .card-title2 {
+        margin: 20px ;
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
     /* our stories section responsive end here */
 
 
     /* main section responsive end here */
+
+
+
+    /* footer section responsive start here */
+
+
+    .footer-content-container{
+        flex-direction: column;
+        padding: 50px 10px;
+        gap: 30px;
+    }
+
+    .footer-logo img{
+        width: 88px;
+    }
+    .footer-icon img{
+        width: 33px;
+    }
+
+
+
+
+
+    
+    .footer-title{
+         font-size: 1.4rem;
+         top: -50px;
+    }
+    .footer-description{
+        margin-top: 20px ;
+    }
+    #deucation{
+        margin-left: 0px;
+       
+    }
+
+    .footer-icon img{
+        padding: 5px;
+    }
+    /* .footer-menu ul{
+        margin-top: 30px;
+       
+    } */
+    /* .footer-menu{
+        margin-top: 30px;
+        
+    } */
+    /* .icons{
+        padding: 10px;
+    } */
+    
+    
+
+
+
+    /* footer section responsive end here */
 
 
 }
