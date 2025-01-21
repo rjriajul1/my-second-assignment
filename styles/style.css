@@ -39,6 +39,18 @@ body {
 /* shared style section end here */
 
 
+/* marquee style */
+marquee{
+    font-size: 1.2rem;
+    background-color: #01ACFD;
+    padding: 10px;
+}
+.highlight{
+    color: red;
+    font-size: 2rem;
+}
+
+
 /* header section style  start here */
 
 
@@ -209,6 +221,7 @@ a {
 
 .card-description {
     font-size: 1rem;
+    font-family: "Raleway", serif;
     font-weight: 500;
     line-height: 28px;
     color: #808080;
@@ -222,6 +235,12 @@ a {
 
 
 
+}
+.second-btn{
+     color: orange;
+}
+.third-btn{
+    color: violet;
 }
 
 #card1 {
@@ -243,8 +262,9 @@ a {
 
 .breackt {
     background-color: orange;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50%;
+    margin-right: 15px;
     color: white;
     font-size: 2rem;
 
@@ -338,6 +358,11 @@ a {
 .story-btn{
     margin: 60px;
 }
+
+
+.card-hide{
+    display: none ;
+}
 /* our stories section end here */
 
 
@@ -392,6 +417,7 @@ a {
 .footer-icon img{
     padding: 5px;
 }
+
 
 /* footer section style end here */
 
@@ -552,10 +578,10 @@ a {
     }
 
     .footer-logo img{
-        width: 88px;
+        width: 90px;
     }
     .footer-icon img{
-        width: 33px;
+        width: 43px;
     }
 
 
@@ -564,31 +590,22 @@ a {
 
     
     .footer-title{
-         font-size: 1.4rem;
+         font-size: 1.8rem;
          top: -50px;
     }
     .footer-description{
         margin-top: 20px ;
     }
     #deucation{
-        margin-left: 0px;
+        margin-left: 90px;
+        display: block;
        
     }
 
     .footer-icon img{
         padding: 5px;
     }
-    /* .footer-menu ul{
-        margin-top: 30px;
-       
-    } */
-    /* .footer-menu{
-        margin-top: 30px;
-        
-    } */
-    /* .icons{
-        padding: 10px;
-    } */
+    
     
     
 
